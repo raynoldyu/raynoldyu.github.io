@@ -3,6 +3,7 @@ import { useFrame } from '@react-three/fiber';
 import { TorusKnot, MeshDistortMaterial } from '@react-three/drei';
 
 export default function AnimatedTorusKnot() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const meshRef = useRef<any>(null);
   useFrame(() => {
     if (meshRef.current) {
