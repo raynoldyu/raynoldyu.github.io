@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	background-color: #000;
+}
+
+body.light {
+  background-color: #fff;
+  color: #181A1B;
+}
+
+body.light .bg-neutral-900\/60,
+body.light .bg-neutral-900 {
+  background-color: rgba(255,255,255,0.7) !important;
+}
+
+body.light .text-white,
+body.light .text-neutral-300,
+body.light .text-gray-100,
+body.light .text-gray-200,
+body.light .text-gray-300,
+body.light .text-gray-400 {
+  color: #181A1B !important;
+}
+
+body.light .border-neutral-800,
+body.light .border-white\/10,
+body.light .border-white\/20 {
+  border-color: #e5e7eb !important;
+}
+
+body.light .shadow-2xl,
+body.light .shadow-lg {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08) !important;
+}
+
+body.light .bg-black\/60,
+body.light .bg-black\/50 {
+  background-color: rgba(255,255,255,0.5) !important;
+}
+
+body.light .bg-white\/10,
+body.light .bg-white\/20,
+body.light .hover\:bg-white\/20:hover,
+body.light .hover\:bg-white\/10:hover {
+  background-color: rgba(0,0,0,0.07) !important;
+}
+
+body.light .border,
+body.light .rounded-2xl,
+body.light .rounded-xl,
+body.light .rounded-lg {
+  border-color: #e5e7eb !important;
+}
+
+body.light .shadow,
+body.light .shadow-lg,
+body.light .shadow-2xl {
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.08) !important;
+}
+
+body.light .font-mono {
+  color: #181A1B !important;
+}
+
+body.light .bg-white\/5 {
+  background-color: rgba(0,0,0,0.07) !important;
+}
+
+body.light .bg-gradient-to-br,
+body.light .bg-gradient-to-r {
+  background: linear-gradient(90deg, #a1c4fd 0%, #c2e9fb 100%) !important;
+}
+
+/* Card background and border utilities */
+.bg-card {
+  background-color: rgba(24, 26, 27, 0.7);
+}
+.bg-card\/50 {
+  background-color: rgba(24, 26, 27, 0.5);
+}
+.bg-card\/80 {
+  background-color: rgba(24, 26, 27, 0.8);
+}
+.border-card {
+  border-color: #23272a;
+}
+
+body.light .bg-card {
+  background-color: rgba(255,255,255,0.92) !important;
+  box-shadow: 0 4px 24px 0 rgba(31, 38, 135, 0.08) !important;
+}
+body.light .bg-card\/50 {
+  background-color: rgba(255,255,255,0.7) !important;
+}
+body.light .bg-card\/80 {
+  background-color: rgba(255,255,255,0.98) !important;
+}
+body.light .border-card {
+  border-color: #e5e7eb !important;
+}
+body.light .shadow-2xl,
+body.light .shadow-lg {
+  box-shadow: 0 4px 24px 0 rgba(31, 38, 135, 0.08) !important;
+}
+body.light .hover\:bg-card\/80:hover {
+  background-color: #eaf1fb !important;
+}
+body.light .font-extrabold,
+body.light .font-bold {
+  color: #1a202c !important;
+}
+body.light .mb-1.font-bold,
+body.light .mb-2.text-sm.font-medium {
+  color: #4b5563 !important;
+}
+body.light .list-disc li {
+  color: #374151 !important;
+}
